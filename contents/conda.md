@@ -14,6 +14,7 @@ conda activate dataenv
 ```bash
 conda install pandas scikit-learn matplotlib seaborn -y
 conda install -c conda-forge notebook -y
-conda install -c anaconda pymongo mysql-connector-python -y
+conda install -c anaconda pymongo -y
+conda install -c anaconda mysql-connector-python -y
 pip install wget
 ```
