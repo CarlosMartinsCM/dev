@@ -13,7 +13,6 @@ conda activate dataenv
 > instalar dependências:
 ```bash
 conda install pandas scikit-learn matplotlib seaborn -y
-conda install -c anaconda jupyter -y
-conda install -c anaconda pymongo -y
-conda install -c anaconda mysql-connector-python -y
+conda install -c anaconda jupyter pymongo mysql-connector-python -y
+pip install wget
 ```
