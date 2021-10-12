@@ -8,11 +8,12 @@ Environment para análise de dados:
 ```bash
 conda create -n dataenv python=3.8
 conda activate dataenv
-conda install pandas scikit-learn matplotlib
 ```
 
 > instalar dependências:
 ```bash
-conda install pandas scikit-learn matplotlib
-conda install seaborn -y
+conda install pandas scikit-learn matplotlib seaborn -y
+conda install -c anaconda jupyter -y
+conda install -c anaconda pymongo -y
+conda install -c anaconda mysql-connector-python -y
 ```
