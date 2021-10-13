@@ -29,9 +29,12 @@ mysql -u root -p dbname < dataset.sql
 
 Exemplo alterar senha root:
 
-```bash
+```sql
 sudo mysql -u root -p
-ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password by '123456';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '123456';
+
+-- secure policy
+-- ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password by '123456';
 exit
 ```
 
