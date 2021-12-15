@@ -45,8 +45,10 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 
 ```bash
 sudo apt-get install openssh-server -y
-sudo systemctl enable ssh
-sudo systemctl start ssh
+```
+
+```
+sudo systemctl enable ssh; sudo systemctl start ssh
 ```
 
 > web tools
