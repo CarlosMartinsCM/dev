@@ -5,6 +5,8 @@
 sudo apt-get update && sudo apt-get upgrade -y
 ```
 
+> virtual machine: [instructions](https://gist.github.com/fscheidt/aa7d22d0dbf2586d6fb32583c6b567b6)
+
 > basic utilities:
 ```bash
 sudo apt install vim curl mcedit git -y
@@ -22,8 +24,10 @@ sudo apt install silversearcher-ag jq w3m pandoc fzf pigz figlet sqlite3 meld -y
 
 > utilities 2
 ```bash
-sudo apt install neofetch htop xsel xclip tmux -y;
-sudo apt install dconf-editor -y
+sudo apt install neofetch htop xsel xclip tmux dconf-editor -y;
+```
+
+```
 sudo apt-get install ripgrep pdfgrep -y
 ```
 
